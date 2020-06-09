@@ -22,9 +22,16 @@ function getTwoCharacters(str){
 }
 
 function makeCapitalized(str){
-  return 
+  return str.toUpperCase()
 }
 
+function yellLouder(str){
+  return str.toUpperCase()
+}
+
+function getInitials(str){
+return 
+} 
 
 
 
