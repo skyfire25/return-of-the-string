@@ -17,8 +17,8 @@ function getOneCharacter(str, i){
   return str[i];
 }
 
-function getTwoCharacters(){
-return 'wg'
+function getTwoCharacters(str, index1, index2){
+  return str[index1] + str[index2]
 }
 
 function makeCapitalized(str){
