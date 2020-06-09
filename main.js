@@ -13,12 +13,12 @@ function getLastCharacter(str){
 return str.slice(-1)
 }
 
-function getOneCharacter(str, num1){
-  return str.valueOf[0];
+function getOneCharacter(str, i){
+  return str[i];
 }
 
-function getTwoCharacters(str){
-
+function getTwoCharacters(str, index1, index2){
+return str[index1] +str[index2]
 }
 
 function makeCapitalized(str){
@@ -26,11 +26,12 @@ function makeCapitalized(str){
 }
 
 function yellLouder(str){
-  return str.toUpperCase()
+  return str.toUpperCase()+ '!!!'
 }
 
-function getInitials(str){
-return 
+function getInitials(name){
+  const secondInitialIndex = name.indexOf(' ') +1;
+  return name[0] + '.' + name[secondInitialIndex] + '.'
 } 
 
 
