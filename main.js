@@ -1,8 +1,29 @@
 /*******************
  * YOUR CODE HERE! *
  *******************/
+function yell(str){
+return str + '!'
+}
 
+function getFirstCharacter(str){
+return str.charAt()
+}
 
+function getLastCharacter(str){
+return str.slice(-1)
+}
+
+function getOneCharacter(str, num1){
+  return str.valueOf[0];
+}
+
+function getTwoCharacters(str){
+
+}
+
+function makeCapitalized(str){
+  return 
+}
 
 
 
